@@ -7,7 +7,7 @@ import numpy as np
 import chardet
 import requests
 import sys
-
+import os
 # Configuration for LLM API Proxy
 CONFIG = {
     "AI_PROXY_URL": "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions", 
